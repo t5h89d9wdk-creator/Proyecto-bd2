@@ -1,0 +1,346 @@
+{
+  "diagnosticos": [
+    {
+      "incidenciaId": 1,
+      "tecnicoId": 3,
+      "descripcion": "El equipo se reiniciaba por fallas en la memoria RAM.",
+      "pruebasRealizadas": ["Test de MemTest86", "Prueba con banco alterno"],
+      "causaProbable": "Módulo DDR4 con celdas corruptas",
+      "solucionAplicada": "Reemplazo de módulo RAM por unidad de stock",
+      "fecha": "2026-08-01T11:30:00Z"
+    },
+    {
+      "incidenciaId": 2,
+      "tecnicoId": 4,
+      "descripcion": "Proyector con intermitencia por lámpara agotada.",
+      "pruebasRealizadas": ["Medición de voltaje", "Contador de horas de lámpara"],
+      "causaProbable": "Lámpara superó las 4000 horas de vida útil",
+      "solucionAplicada": "Cambio de bulbo y reseteo de contador",
+      "fecha": "2026-08-01T13:45:00Z"
+    },
+    {
+      "incidenciaId": 3,
+      "tecnicoId": 5,
+      "descripcion": "Sin conexión de red en equipo de laboratorio.",
+      "pruebasRealizadas": ["Prueba con tester RJ45", "Conexión en otro puerto"],
+      "causaProbable": "Pines 1 y 2 sulfatados en conector",
+      "solucionAplicada": "Crimpado de nuevo conector Cat6",
+      "fecha": "2026-08-02T13:10:00Z"
+    },
+    {
+      "incidenciaId": 4,
+      "tecnicoId": 6,
+      "descripcion": "Atasco constante de papel en bandeja 2.",
+      "pruebasRealizadas": ["Prueba de arrastre con 10 páginas"],
+      "causaProbable": "Gomas de tracción resecas",
+      "solucionAplicada": "Limpieza y acondicionamiento de rodillos",
+      "fecha": "2026-08-02T15:40:00Z"
+    },
+    {
+      "incidenciaId": 5,
+      "tecnicoId": 3,
+      "descripcion": "Proyector no recibe señal desde toma de pared.",
+      "pruebasRealizadas": ["Continuidad de cable HDMI", "Bypass con cable directo"],
+      "causaProbable": "Terminal HDMI quebrado dentro de la caja de pared",
+      "solucionAplicada": "Reemplazo de cable HDMI de 10 metros",
+      "fecha": "2026-08-03T10:45:00Z"
+    },
+    {
+      "incidenciaId": 6,
+      "tecnicoId": 4,
+      "descripcion": "Ruido fuerte proveniente del cooler posterior.",
+      "pruebasRealizadas": ["Inspección visual", "Medición de RPM"],
+      "causaProbable": "Eje del ventilador desalineado con polvo",
+      "solucionAplicada": "Limpieza con aire comprimido y lubricación sintética",
+      "fecha": "2026-08-03T16:30:00Z"
+    },
+    {
+      "incidenciaId": 7,
+      "tecnicoId": 5,
+      "descripcion": "Ruido y chillido en micrófono inalámbrico.",
+      "pruebasRealizadas": ["Barrido de frecuencias RF", "Cambio de batería"],
+      "causaProbable": "Conflicto de canal con red local UHF",
+      "solucionAplicada": "Sincronización a canal limpio 542.150 MHz",
+      "fecha": "2026-08-04T12:00:00Z"
+    },
+    {
+      "incidenciaId": 8,
+      "tecnicoId": 6,
+      "descripcion": "Pérdida de señal Wi-Fi constante en aula.",
+      "pruebasRealizadas": ["Ping extendido", "Revisión de logs en controlador"],
+      "causaProbable": "Kernel panic por versión de firmware obsoleta",
+      "solucionAplicada": "Actualización a versión estable 6.5.28",
+      "fecha": "2026-08-04T14:30:00Z"
+    },
+    {
+      "incidenciaId": 9,
+      "tecnicoId": 3,
+      "descripcion": "Arranque lento en estación de trabajo.",
+      "pruebasRealizadas": ["Análisis de servicios de inicio", "Verificación SMART"],
+      "causaProbable": "Múltiples servicios en segundo plano innecesarios",
+      "solucionAplicada": "Depuración de msconfig y deshabilitación de telemetría",
+      "fecha": "2026-08-05T11:15:00Z"
+    },
+    {
+      "incidenciaId": 10,
+      "tecnicoId": 4,
+      "descripcion": "Puertos frontales USB no reconocen dispositivos.",
+      "pruebasRealizadas": ["Medición de voltaje 5V en conector", "Prueba en placa"],
+      "causaProbable": "Cable header suelto en la placa base",
+      "solucionAplicada": "Reconexión y ajuste del cabezal USB 3.0",
+      "fecha": "2026-08-05T15:30:00Z"
+    },
+    {
+      "incidenciaId": 11,
+      "tecnicoId": 5,
+      "descripcion": "Periféricos se desconectaban solos.",
+      "pruebasRealizadas": ["Test de continuidad en cables de mouse y teclado"],
+      "causaProbable": "Cable interno del mouse con corte intermitente",
+      "solucionAplicada": "Cambio de combo mouse y teclado",
+      "fecha": "2026-08-06T12:15:00Z"
+    },
+    {
+      "incidenciaId": 12,
+      "tecnicoId": 6,
+      "descripcion": "Equipo enciende pero no emite señal de video.",
+      "pruebasRealizadas": ["Reasentamiento de tarjeta", "Prueba con gráfica integrada"],
+      "causaProbable": "Contacto sucio en el slot PCI-Express",
+      "solucionAplicada": "Limpieza de contactos con alcohol isopropílico",
+      "fecha": "2026-08-06T17:45:00Z"
+    },
+    {
+      "incidenciaId": 13,
+      "tecnicoId": 3,
+      "descripcion": "Switch presenta caída en los primeros 8 puertos.",
+      "pruebasRealizadas": ["Revisión de PoE", "Prueba de loopback"],
+      "causaProbable": "Sobrecarga en banco primario de puertos",
+      "solucionAplicada": "Reinicio de banco y reconfiguración de balanceo",
+      "fecha": "2026-08-07T10:45:00Z"
+    },
+    {
+      "incidenciaId": 14,
+      "tecnicoId": 4,
+      "descripcion": "Consola mezcladora inoperativa.",
+      "pruebasRealizadas": ["Revisión de fusible interno", "Toma eléctrica"],
+      "causaProbable": "Fusible de protección 2A fundido por pico de voltaje",
+      "solucionAplicada": "Reemplazo de fusible y conexión a regulador",
+      "fecha": "2026-08-07T12:30:00Z"
+    },
+    {
+      "incidenciaId": 15,
+      "tecnicoId": 5,
+      "descripcion": "Manchas amarillentas en imagen del auditorio.",
+      "pruebasRealizadas": ["Proyección de pantalla en blanco", "Inspección de prismas"],
+      "causaProbable": "Filtro polarizador azul desgastado por calor",
+      "solucionAplicada": "Limpieza óptica y calibración de panel LCD",
+      "fecha": "2026-08-08T10:15:00Z"
+    },
+    {
+      "incidenciaId": 16,
+      "tecnicoId": 6,
+      "descripcion": "Cuelgue del sistema al renderizar en software 3D.",
+      "pruebasRealizadas": ["Prueba de estrés de GPU", "Monitoreo térmico"],
+      "causaProbable": "Temperatura de GPU sobre 95°C por pasta térmica seca",
+      "solucionAplicada": "Reemplazo de compuesto térmico en procesador y GPU",
+      "fecha": "2026-08-08T15:20:00Z"
+    },
+    {
+      "incidenciaId": 17,
+      "tecnicoId": 3,
+      "descripcion": "Aviso de cartucho de tóner no detectado.",
+      "pruebasRealizadas": ["Inspección de chip de tóner"],
+      "causaProbable": "Chip de cartucho desalineado con contactos",
+      "solucionAplicada": "Reubicación y limpieza de contactos del sensor",
+      "fecha": "2026-08-09T11:45:00Z"
+    },
+    {
+      "incidenciaId": 18,
+      "tecnicoId": 4,
+      "descripcion": "Latencia alta y pérdida de paquetes hacia el switch central.",
+      "pruebasRealizadas": ["Wireshark capture", "Traceroute interno"],
+      "causaProbable": "Tormenta de broadcast por bucle en piso 2",
+      "solucionAplicada": "Habilitación de STP (Spanning Tree Protocol)",
+      "fecha": "2026-08-09T14:10:00Z"
+    },
+    {
+      "incidenciaId": 19,
+      "tecnicoId": 5,
+      "descripcion": "Canal derecho mudo en sala de conferencias.",
+      "pruebasRealizadas": ["Inyección de señal de tono", "Comprobación de cable XLR"],
+      "causaProbable": "Cable de salida XLR desoldado en pin 2",
+      "solucionAplicada": "Resoldado y test de señal balanceada",
+      "fecha": "2026-08-10T10:15:00Z"
+    },
+    {
+      "incidenciaId": 20,
+      "tecnicoId": 6,
+      "descripcion": "Zumbido eléctrico en la fuente de poder ATX.",
+      "pruebasRealizadas": ["Medición de voltajes 12V, 5V y 3.3V bajo carga"],
+      "causaProbable": "Coil whine y capacitores en etapa de filtro hinchados",
+      "solucionAplicada": "Cambio preventivo de fuente de poder 500W",
+      "fecha": "2026-08-10T17:40:00Z"
+    }
+  ],
+  "evidencias": [
+    {
+      "incidenciaId": 1,
+      "tipo": "imagen",
+      "nombre": "memoria_error_test.jpg",
+      "url": "https://campusfix.ecotec.local/evidencias/memoria_error_test.jpg",
+      "descripcion": "Captura de pantalla MemTest86 mostrando errores en sector 0x4F",
+      "fecha": "2026-08-01T10:15:00Z"
+    },
+    {
+      "incidenciaId": 2,
+      "tipo": "imagen",
+      "nombre": "lampara_agotada.jpg",
+      "url": "https://campusfix.ecotec.local/evidencias/lampara_agotada.jpg",
+      "descripcion": "Foto del contador de horas de la lámpara en menú de servicio",
+      "fecha": "2026-08-01T11:20:00Z"
+    },
+    {
+      "incidenciaId": 3,
+      "tipo": "imagen",
+      "nombre": "conector_rj45_dañado.jpg",
+      "url": "https://campusfix.ecotec.local/evidencias/conector_rj45_dañado.jpg",
+      "descripcion": "Detalle del conector Ethernet con pines torcidos",
+      "fecha": "2026-08-02T11:05:00Z"
+    },
+    {
+      "incidenciaId": 4,
+      "tipo": "imagen",
+      "nombre": "rodillo_impresora.jpg",
+      "url": "https://campusfix.ecotec.local/evidencias/rodillo_impresora.jpg",
+      "descripcion": "Estado de suciedad de los rodillos de tracción",
+      "fecha": "2026-08-02T14:15:00Z"
+    },
+    {
+      "incidenciaId": 5,
+      "tipo": "imagen",
+      "nombre": "cable_hdmi_roto.jpg",
+      "url": "https://campusfix.ecotec.local/evidencias/cable_hdmi_roto.jpg",
+      "descripcion": "Cabezal de conector HDMI fracturado",
+      "fecha": "2026-08-03T09:00:00Z"
+    },
+    {
+      "incidenciaId": 6,
+      "tipo": "documento",
+      "nombre": "log_temperatura_chasis.txt",
+      "url": "https://campusfix.ecotec.local/evidencias/log_temperatura_chasis.txt",
+      "descripcion": "Registro térmico de sensores antes del mantenimiento",
+      "fecha": "2026-08-03T15:00:00Z"
+    },
+    {
+      "incidenciaId": 7,
+      "tipo": "imagen",
+      "nombre": "espectro_rf_interferencia.png",
+      "url": "https://campusfix.ecotec.local/evidencias/espectro_rf_interferencia.png",
+      "descripcion": "Gráfico de analizador de radiofrecuencia con solapamiento",
+      "fecha": "2026-08-04T10:30:00Z"
+    },
+    {
+      "incidenciaId": 8,
+      "tipo": "log",
+      "nombre": "syslog_access_point.log",
+      "url": "https://campusfix.ecotec.local/evidencias/syslog_access_point.log",
+      "descripcion": "Log de caídas periódicas del daemon de Wi-Fi",
+      "fecha": "2026-08-04T13:10:00Z"
+    },
+    {
+      "incidenciaId": 9,
+      "tipo": "imagen",
+      "nombre": "administrador_tareas_inicio.png",
+      "url": "https://campusfix.ecotec.local/evidencias/administrador_tareas_inicio.png",
+      "descripcion": "Captura de programas de inicio que generaban impacto alto",
+      "fecha": "2026-08-05T09:30:00Z"
+    },
+    {
+      "incidenciaId": 10,
+      "tipo": "imagen",
+      "nombre": "header_usb_desconectado.jpg",
+      "url": "https://campusfix.ecotec.local/evidencias/header_usb_desconectado.jpg",
+      "descripcion": "Foto del conector frontal desconectado en la placa madre",
+      "fecha": "2026-08-05T14:10:00Z"
+    },
+    {
+      "incidenciaId": 11,
+      "tipo": "imagen",
+      "nombre": "cable_mouse_danado.jpg",
+      "url": "https://campusfix.ecotec.local/evidencias/cable_mouse_danado.jpg",
+      "descripcion": "Corte visible en el cable del mouse USB",
+      "fecha": "2026-08-06T11:00:00Z"
+    },
+    {
+      "incidenciaId": 12,
+      "tipo": "imagen",
+      "nombre": "gpu_slot_polvo.jpg",
+      "url": "https://campusfix.ecotec.local/evidencias/gpu_slot_polvo.jpg",
+      "descripcion": "Acumulación de suciedad en la ranura PCIe",
+      "fecha": "2026-08-06T16:30:00Z"
+    },
+    {
+      "incidenciaId": 13,
+      "tipo": "imagen",
+      "nombre": "panel_luces_switch.jpg",
+      "url": "https://campusfix.ecotec.local/evidencias/panel_luces_switch.jpg",
+      "descripcion": "LEDs indicadores en estado ambar por alerta de puerto",
+      "fecha": "2026-08-07T09:40:00Z"
+    },
+    {
+      "incidenciaId": 14,
+      "tipo": "imagen",
+      "nombre": "fusible_quemado.jpg",
+      "url": "https://campusfix.ecotec.local/evidencias/fusible_quemado.jpg",
+      "descripcion": "Filamento interno del fusible de la consola roto",
+      "fecha": "2026-08-07T11:45:00Z"
+    },
+    {
+      "incidenciaId": 15,
+      "tipo": "imagen",
+      "nombre": "proyeccion_mancha_amarilla.jpg",
+      "url": "https://campusfix.ecotec.local/evidencias/proyeccion_mancha_amarilla.jpg",
+      "descripcion": "Captura de la imagen proyectada con distorsión cromática",
+      "fecha": "2026-08-08T09:10:00Z"
+    },
+    {
+      "incidenciaId": 16,
+      "tipo": "log",
+      "nombre": "hwmonitor_gpu_temp.csv",
+      "url": "https://campusfix.ecotec.local/evidencias/hwmonitor_gpu_temp.csv",
+      "descripcion": "Registro térmico con picos de 97 grados durante renderizado",
+      "fecha": "2026-08-08T14:40:00Z"
+    },
+    {
+      "incidenciaId": 17,
+      "tipo": "imagen",
+      "nombre": "chip_toner_sucio.jpg",
+      "url": "https://campusfix.ecotec.local/evidencias/chip_toner_sucio.jpg",
+      "descripcion": "Restos de polvo de tóner sobre los contactos del chip",
+      "fecha": "2026-08-09T11:00:00Z"
+    },
+    {
+      "incidenciaId": 18,
+      "tipo": "documento",
+      "nombre": "wireshark_broadcast_storm.pcapng",
+      "url": "https://campusfix.ecotec.local/evidencias/wireshark_broadcast_storm.pcapng",
+      "descripcion": "Captura de paquetes demostrando saturación por STP inactivo",
+      "fecha": "2026-08-09T13:30:00Z"
+    },
+    {
+      "incidenciaId": 19,
+      "tipo": "imagen",
+      "nombre": "conector_xlr_desoldado.jpg",
+      "url": "https://campusfix.ecotec.local/evidencias/conector_xlr_desoldado.jpg",
+      "descripcion": "Terminal interna del cable de audio desprendida",
+      "fecha": "2026-08-10T09:45:00Z"
+    },
+    {
+      "incidenciaId": 20,
+      "tipo": "imagen",
+      "nombre": "fuente_condensadores.jpg",
+      "url": "https://campusfix.ecotec.local/evidencias/fuente_condensadores.jpg",
+      "descripcion": "Capacitores electrolíticos deformados en etapa secundaria",
+      "fecha": "2026-08-10T17:15:00Z"
+    }
+  ]
+}
